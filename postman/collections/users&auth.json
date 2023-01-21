@@ -1,0 +1,33 @@
+{
+	"info": {
+		"_postman_id": "12da570f-da96-4f06-acaf-4837bb1ddfff",
+		"name": "users&auth",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_uid": "12472236-12da570f-da96-4f06-acaf-4837bb1ddfff"
+	},
+	"item": [
+		{
+			"name": "create a user",
+			"id": "5309f6b5-5536-44b2-ba7b-fdbb76ae6485",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "{{url}}/api/v1/users",
+					"host": [
+						"{{url}}"
+					],
+					"path": [
+						"api",
+						"v1",
+						"users"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
