@@ -1,11 +1,12 @@
 package main
 
-import "github.com/ysrckr/simpleblog_api/routes"
-
-const PORT = ":4000"
+import (
+	"github.com/ysrckr/simpleblog_api/routes"
+)
 
 func main() {
+	
 
 	app := routes.CreateServer()
-	routes.ServeRoutes(app, PORT)
+	routes.ServeRoutes(app)
 }
