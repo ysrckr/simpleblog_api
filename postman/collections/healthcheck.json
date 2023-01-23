@@ -1,0 +1,38 @@
+{
+	"info": {
+		"_postman_id": "57433c9f-a30f-4e6e-9c54-eaa33a726caf",
+		"name": "healthcheck",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_uid": "12472236-57433c9f-a30f-4e6e-9c54-eaa33a726caf"
+	},
+	"item": [
+		{
+			"name": "healthcheck",
+			"id": "3628283b-6df9-4a09-9e8e-9376750372ed",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{url}}/healthcheck",
+					"host": [
+						"{{url}}"
+					],
+					"path": [
+						"healthcheck"
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"variable": [
+		{
+			"id": "dad39bf4-6f5e-4f3b-b1c1-e3d76c7966fb",
+			"key": "url",
+			"value": "http://localhost:4000/api/v1"
+		}
+	]
+}

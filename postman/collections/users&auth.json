@@ -7,7 +7,7 @@
 	},
 	"item": [
 		{
-			"name": "create a user",
+			"name": "register a user",
 			"id": "5309f6b5-5536-44b2-ba7b-fdbb76ae6485",
 			"protocolProfileBehavior": {
 				"disableBodyPruning": true
@@ -16,14 +16,12 @@
 				"method": "POST",
 				"header": [],
 				"url": {
-					"raw": "{{url}}/api/v1/users",
+					"raw": "{{url}}/register",
 					"host": [
 						"{{url}}"
 					],
 					"path": [
-						"api",
-						"v1",
-						"users"
+						"register"
 					]
 				}
 			},
